@@ -1,0 +1,58 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <!-- <link rel="stylesheet" href="style.css" /> -->
+  <title>La leyenda de Enlace</title>
+</head>
+<style>
+  body{
+  background: url("https://i0.wp.com/artoyclaro.com/wp-content/uploads/2022/05/Graphic-design-is-my-passion.jpg?resize=680%2C427&ssl=1") #00D repeat-y fixed;
+  background-size: 100%;
+  color:white;
+}
+.rectangle {
+  height: 20px;
+  width: 280px;
+  background-color: #16c73c;
+}
+</style>
+<body>
+  <h1>
+    La leyenda de Enlace
+  </h1>
+  <div>
+    <img width="280" height="250" src="https://www.clasesdeperiodismo.com/wp-content/uploads/2017/01/bots.png">
+        <!-- <div class="rectangle"></div> -->
+        <div id="corazonesEnemigo"></div>
+
+    <p>
+      Nombre: <span id="nombreEnemigo"></span> |
+      Vida: <span id="vidaEnemigo"></span> |
+      Resistencia: <span id="resistenciaEnemigo"></span>
+    </p>
+  </div>
+  <hr>
+
+  <div>
+    <img width="280" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReYOrOVeaFdMW0vO8oCkoeCN6xCNb4YyA4YElJiPxvHZ1s_pYyj05n1N2TykM0QNz_RiQ&usqp=CAU">
+  <!--  <div class="rectangle"></div> -->
+  <div id="corazonesProta"></div>
+
+    <p>
+      Nombre: <span id="nombreProta"></span> |
+      Vida: <span id="vidaProta"></span> |
+      Resistencia: <span id="resistenciaProta"></span>
+    </p>
+  </div>
+  <button onclick="atacarBoton()" style="width:280px;height:40px;">Atacar</button>
+
+  <script src="ejercicioLink.js"></script>
+</body>
+
+</html>

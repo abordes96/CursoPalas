@@ -1,0 +1,85 @@
+
+body{
+    background:url('https://tugallinaonline.es/planeta-avicola/wp-content/uploads/2021/06/tipos-de-pollos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Parte principal */
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:white;
+    font-size: 20px;
+}
+
+/* Parte bichos */
+
+.contenedorBicho p{
+    margin-top : 0px;
+}
+
+.contenedorBicho, .contenedorVs, .contenedorAtaques{
+    text-align: center;
+    margin-top: 6%;
+ }
+
+.imgVs{
+    text-align: center;
+    width : 120px;
+    height : 100px;
+}
+
+.imgBicho{
+    width : 300px;
+    height : 250px;
+}
+
+.contenedorAtaques button{
+    font-size: 18px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+/* Parte texto de combate */
+
+.contenedorTextoCombate{
+    margin-top: 2%;
+    display: inline-block;
+    background-color: white;
+    width: 30%;
+    height:600px;
+    margin-bottom: 10%;
+    color:black;
+    overflow-y: scroll;
+}
+
+
+#textoCombateTitulo{
+    font-size: 32px;
+    text-align: center;
+}
+
+#textoCombateCuerpo{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* Parte sonido */
+
+.contenedorMuted{
+    text-align: left;
+    margin-top: 2%;
+ }
+
+.contenedorMuted button{
+height: 60px;
+width: 80px;
+cursor: pointer;
+}
+

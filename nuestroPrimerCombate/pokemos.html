@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pomekos.css" />
+    <title>Pomekos</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <div class="contenedorMuted">
+            <button onclick="changeAudioMuted()">
+                <img id="audioIcon" width=50px; src="imagenes/audio.png">
+            </button>
+        </div>
+
+        <div class="contenedorCombate">
+
+            <div class="contenedorBicho">
+                <img class="imgBicho" src="imagenes/gavilan.jpg">
+                <p>
+                    Nombre: <span id="nombreBichoEnemigo"></span> |
+                    Vida: <span id="vidaActualBichoEnemigo"></span> / <span id="vidaBichoEnemigo"></span>
+                </p>
+            </div>
+
+            <div class="contenedorVs">
+                <img class="imgVs"
+                    src="imagenes/vs.jfif">
+            </div>
+
+            <div class="contenedorBicho">
+                <img class="imgBicho"
+                    src="imagenes/pokachu.jpg">
+
+                <p>
+                    Nombre: <span id="nombreBichoAmigo"></span> |
+                    Vida: <span id="vidaActualBichoAmigo"></span> / <span id="vidaBichoAmigo"></span>
+                </p>
+            </div>
+
+            <div class="contenedorAtaques">
+                <button id="ataque1" onclick="atacar(1)"></button>
+                <button id="ataque2" onclick="atacar(2)"></button>
+                <button id="ataque3" onclick="atacar(3)"></button>
+                <button id="ataque4" onclick="atacar(4)"></button>
+            </div>
+
+        </div>
+
+        <div class="contenedorTextoCombate">
+            <p id="textoCombateTitulo">
+                Combate
+            </p>
+            <hr>
+            <p id="textoCombateCuerpo"></p>
+        </div>
+    </div>
+
+    <script src="pomekos.js"></script>
+</body>
+
+</html>
